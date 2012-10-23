@@ -3,8 +3,7 @@ source :rubygems
 puppetversion = ENV.key?('PUPPET_VERSION') ? "= #{ENV['PUPPET_VERSION']}" : ['>= 2.7']
 
 gem 'puppet', puppetversion
-gem 'hiera', '>= 0.3.0'
-gem 'hiera-puppet', '>= 0.3.0'
+gem 'librarian-puppet'
 
 group :test do
   gem 'mocha', '>= 0.11.0'
