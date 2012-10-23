@@ -1,0 +1,15 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    pdxcat/singleton (0.0.3)
+    puppetlabs/apt (0.0.4)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/stdlib (3.0.1)
+    puppetlabs/vcsrepo (0.1.0)
+
+DEPENDENCIES
+  pdxcat/singleton (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/stdlib (>= 0)
+  puppetlabs/vcsrepo (>= 0)
+
