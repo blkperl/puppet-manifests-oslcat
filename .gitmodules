@@ -1,18 +1,3 @@
-[submodule "modules/vcsrepo"]
-	path = modules/vcsrepo
-	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
 [submodule "modules/vim/files/pathogen"]
-	path = modules/vim/files/pathogen
+	path = oldmodules/vim/files/pathogen
 	url = https://github.com/tpope/vim-pathogen.git
-[submodule "modules/hiera-puppet"]
-	path = modules/hiera-puppet
-	url = https://github.com/puppetlabs/hiera-puppet.git
-[submodule "modules/singleton"]
-	path = modules/singleton
-	url = git://github.com/pdxcat/puppet-module-singleton.git
-[submodule "modules/apt"]
-	path = modules/apt
-	url = git://github.com/puppetlabs/puppetlabs-apt.git
-[submodule "modules/stdlib"]
-	path = modules/stdlib
-	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
